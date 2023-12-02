@@ -13,6 +13,8 @@ body{
   height: auto;
   background-color: #A187E8;
   background-size: cover;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #titulobloco {
