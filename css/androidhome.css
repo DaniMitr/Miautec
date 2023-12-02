@@ -1,0 +1,81 @@
+#texto-nav {
+  display: flex;
+}
+#navbar {
+  display: flex;
+  background-color: var(--navcor);
+  width: 100vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#navtext {
+  position: relative;
+  font-size: 15px;
+
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+  transition: 0.2s;
+  padding: 10px;
+}
+#quadrados {
+  display: none;
+}
+#gatopreto {
+  margin-top: auto;
+}
+#miautec {
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#texto-miautec p {
+  text-align: justify;
+  width: 330px;
+  overflow-y: hidden;
+  font-size: 18px;
+}
+#patas {
+  display: none;
+}
+#cardscat {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#card {
+  min-width: 300px;
+  min-height: 400px;
+}
+#card img {
+  width: 380px;
+  z-index: 0;
+}
+
+#gatomusico {
+  width: 300px;
+  margin-top: -40px;
+  padding: 10px;
+  z-index: 0;
+  position: absolute;
+}
+#gatocoracao{
+  z-index: 0;
+  position: absolute;
+}
+#cards {
+  flex-wrap: wrap;
+}
+#cuidados {
+  flex-wrap: wrap-reverse;
+}
+#texto-botao p {
+  padding-top: 30px;
+}
+#texto-botao button {
+  margin-top: -50px;
+}

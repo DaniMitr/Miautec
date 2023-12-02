@@ -1,0 +1,281 @@
+
+#header {
+  width: 100vw;
+  height: auto;
+  background-color: #a592eb;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  border-bottom: solid;
+  border-width: 15px;
+}
+#divquadrados {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#quadrados {
+  width: 65px;
+  height: 50px;
+}
+#miautec {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-bottom: 50px;
+}
+#titulo-miau {
+  font-size: 25px;
+  color: #a592eb;
+  text-align: center;
+  min-height: 60px;
+  padding-top: 60px;
+}
+#texto-miautec p {
+  text-align: justify;
+  width: 426px;
+  overflow-y: hidden;
+  font-size: 18px;
+}
+#logomiau {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+}
+#patas {
+  height: 250px;
+}
+#animais {
+  text-align: center;
+}
+#porque-adotar {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  background-color: #a592eb;
+  border-bottom: solid;
+  border-top: solid;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-width: 5px;
+}
+#animais {
+  background-color: #a3b0fd;
+  padding: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-top: solid;
+  border-width: 6px;
+}
+#cardscat {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  background-image: url(../imagens/fundopq.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#card {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  min-width: 320px;
+  min-height: 400px;
+  max-height: 300px;
+  background-color: #ccc0fa;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 5px;
+}
+#texto-amorosos {
+  text-align: center;
+  min-height: 50px;
+  margin-top: 100%;
+}
+#texto-companheiro{
+  text-align: center;
+  min-height: 50px;
+  margin-top: 100%;
+}
+#texto-beneficios{
+  text-align: center;
+  min-height: 50px;
+  margin-top: 100%;
+  padding-left: 5px;
+    padding-right: 5px;
+}
+#gatocoracao {
+  width: 400px;
+  margin-left: -50px;
+  z-index: 0;
+  position: absolute;
+}
+#gatomedico{
+  width: 400px;
+  margin-left: -40px;
+
+  z-index: 0;
+  position: absolute;
+  margin-top: -60px;
+}
+#gatomusico{
+  max-width: 320px;
+  margin-top: -40px;
+  margin-left: -10px;
+  padding: 10px;
+  z-index: 0;
+  position: absolute;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: solid;
+  border-width: 12px;
+}
+
+#cardpro {
+  align-items: center;
+  justify-content: center;
+  background-image: url(../imagens/fundocard2.png);
+  height: 700px;
+  width: 400px;
+  background-size: contain;
+  border-style: solid;
+  border-color: #a3b0fd;
+  border-radius: 34px;
+  margin-top: 50px;
+}
+#cardpro img {
+  width: 400px;
+}
+#cardpro h5 {
+  font-size: 20px;
+  font-weight: bolder;
+  min-height: 50px;
+
+  text-align: center;
+  padding-top: 25px;
+}
+#cardpro p {
+  min-height: 50px;
+
+  text-align: center;
+  padding: 20px;
+}
+span {
+  color: #775dd6;
+}
+
+#cardpro2 {
+  align-items: center;
+  justify-content: center;
+  background-image: url(../imagens/fundocard.png);
+  height: 700px;
+  width: 400px;
+  background-size: contain;
+  border-style: solid;
+  border-color: #a3b0fd;
+  border-radius: 34px;
+  margin-top: 50px;
+}
+#cardpro2 img {
+  width: 400px;
+}
+#cardpro2 h5 {
+  font-size: 20px;
+  font-weight: bolder;
+  min-height: 50px;
+
+  text-align: center;
+  padding-top: 25px;
+}
+#cardpro2 p {
+  min-height: 50px;
+
+  text-align: center;
+  padding: 20px;
+}
+#cuidados {
+  justify-content: center;
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+#cuidados img {
+  width: 450px;
+}
+
+#texto-botao {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#texto-botao p {
+  font-size: 22px;
+  width: 300px;
+  min-height: 150px;
+  text-align: center;
+}
+
+/*BOTAO*/
+#botao {
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 25px;
+}
+
+button {
+  width: 300px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #a592eb;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #a592eb;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #a592eb;
+  z-index: -1;
+}
+
+button:hover,
+button:focus {
+  color: white;
+}
+
+button:hover:before,
+button:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+button:active {
+  transform: scale(0.9);
+}

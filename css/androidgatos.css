@@ -1,0 +1,177 @@
+
+#texto-nav{
+    display: flex;
+    
+
+}
+#navbar{
+    display: flex;
+    background-color: var(--navcor);
+    width: 100vw;
+
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+    
+}
+#navtext{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: 0.2s;
+    padding: 10px;
+}
+
+#bloco-cima{
+   padding-bottom: 100px;
+    width: 100vw;
+    height: 400px;
+
+}
+
+#titulobloco{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 30px;
+
+    width: auto;
+    height: auto;
+}
+#textobloco{
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    padding-bottom: 150px;
+   
+}
+#gatofatec{
+    display: flex;
+}
+#sectionnossos{
+  background-image: none;
+ 
+}
+#juncao {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+  #imglisa{
+    height: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0px;
+
+  }
+  #titulolisa {
+    text-align: center;
+    font-size: 22px;
+    padding: 30px;
+    font-weight: bold;
+    border-width: 12px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  #textolisa {
+    margin-top: 15px;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    padding: 30px;
+
+   
+    border-width: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #titulotom {
+    text-align: center;
+ 
+    
+    font-size: 22px;
+    padding: 30px;
+ 
+    font-weight: bold;
+    border-width: 12px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+  #textotom{
+    margin-top: 15px;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    padding: 30px;
+
+   
+    border-width: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #linhapolaroid{
+    justify-content: space-evenly;
+    width: 100vw;
+ 
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #polaroid{
+    width: 373.04px;
+    height: 461.04px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-top: solid;
+  
+    margin-bottom: 25px;
+  
+  }
+
+  #ongs{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+
+  #imgadote{
+    border-bottom: solid;
+    border-color: rgb(55, 55, 95);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #imgadote2{
+    margin-top:30px; 
+    border-bottom: solid;
+    border-color: rgb(55, 55, 95);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #footer{
+    flex-wrap: wrap;
+  }
+  #aba-footer{
+    margin-top: 100px;
+  }
+  #aba-quiz{
+    margin-top: 100px;
+  }

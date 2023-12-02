@@ -1,0 +1,279 @@
+@font-face {
+  font-family: Ralaway;
+  src: url(Raleway-VariableFont_wght.ttf);
+}
+body{
+  background-color: #EAE4D4;
+  font-family: Raleway;
+}
+
+#bloco-cima {
+  /* max-width: 100%; */
+  /* min-width: 20%; */
+  height: auto;
+  background-color: #A187E8;
+  background-size: cover;
+}
+
+#titulobloco {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: aliceblue;
+  min-height: 50px;
+}
+#textobloco {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: aliceblue;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* width: 937px; */
+  /* height: 92px; */
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#blocobaixo{
+  background-color: #A187E8;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 10px;
+}
+
+
+.center{
+    display: grid; 
+    place-items: center;
+    margin-bottom: 3%;
+}
+
+.content-1{
+    /* background-color: #F7F3E7; */
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-top: 50px;
+    background-image: url(../imagens/LandScape_Purple.png);
+    background-size: 100vw;
+    width: 100vw;
+
+}
+
+.content-2{
+    /* background-color: #EAE4D4; */
+    padding-bottom: 10%;
+    background-image: url(../imagens/LandScape_Black.png);
+    background-size: 100vw;
+    width: 100vw;
+
+    padding-top: 10%;
+}
+
+.content-2 h2{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  min-height: 30px;
+ text-align: center;
+}
+
+.content-2 h2:hover{
+ transform: scale(0.8);
+}
+
+.video{
+  width: 70%;
+  border: #A187E8 solid 5px;
+  border-radius: 10px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; 
+    align-self: center;
+  }
+ 
+
+  .box {
+    max-height: 200px;
+    min-height: 50px;
+    max-width: 400px;
+    min-width: 200px;
+    text-align: center;
+    padding-top: 3%;
+    /* grid-area: "item"; */
+  }
+
+  .box > h2{
+    font-size: 22px;
+    align-self: center;
+    padding-bottom: 18px;
+  }
+  
+  .box > p{
+    font-size: 18px;
+    align-self: center;
+    min-height: 130px;
+  }
+
+img{
+  max-width: 600px;
+}
+
+#botao {
+  display: grid; 
+  place-items: center;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+
+  padding-top: 25px;
+}
+
+/* #botao a{
+  text-decoration: none;
+  color: #a592eb;
+} */
+/* #botao a:hover{
+  text-decoration: none;
+  color: #a592eb;
+} */
+
+button {
+  max-width: 300px;
+  min-width: 100px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #a592eb;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #a592eb;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #a592eb;
+  z-index: -1;
+}
+
+button:hover,
+button:focus {
+  color: white;
+}
+
+button:hover:before,
+button:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+
+@media(max-width: 800px){
+
+  .content-1, .content-2{
+    background-image: none;
+  }
+  
+  img{
+    max-width: 500px;
+  }
+}
+
+
+  @media(max-width: 500px){
+    img{
+      max-width: 400px;
+    }
+
+    .content-2 h2{
+      min-height: 30px;
+      font-size: 18px;
+    }
+
+    .container {
+      display: grid;
+      place-items: center;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px; 
+      align-self: center;
+    }
+
+    #titulobloco {
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 100px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold;
+      color: aliceblue;
+      min-height: 50px;
+    }
+    #textobloco {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+      color: aliceblue;
+      margin-top: 35px;
+      /* width: 937px; */
+      /* height: 92px; */
+      text-align: center;
+      padding-bottom: 100px;
+    }
+    
+
+
+  }
+
+
+  @media(max-width: 380px){
+    img{
+      max-width: 300px;
+    }
+
+    .content-2 h2{
+      min-height: 30px;
+      font-size: 14px;
+    }
+
+    .box > h2{
+      font-size: 16px;
+      align-self: center;
+    }
+    
+    .box > p{
+      font-size: 12px;
+      align-self: center;
+    }
+
+  }
+  

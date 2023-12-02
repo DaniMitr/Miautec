@@ -1,0 +1,230 @@
+
+#bloco-cima {
+  width: 100vw;
+  height: auto;
+  background-color: #A187E8;
+  background-size: cover;
+}
+
+#titulobloco {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: aliceblue;
+  min-height: 50px;
+}
+#textobloco {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  color: aliceblue;
+  margin-top: 35px;
+  width: 937px;
+  height: 92px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/*section 2*/
+
+#sectionnossos{
+    background-image: url(../imagens/fundonossos.png);
+    background-size: 100vw;
+    width: 100vw;
+   
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+#titulosec {
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+#imglisa{
+  height: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 50px;
+}
+#juncao {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#titulolisa {
+  text-align: center;
+  height: 50;
+  font-size: 25px;
+  padding: 30px;
+  color: #7E60C2;
+  font-weight: bold;
+  border-bottom: solid;
+  border-width: 12px;
+  border-radius: 22px;
+}
+#textolisa{
+  margin-top: 15px;
+  font-weight: 150px;
+  font-size: 20px;
+  width: 650px;
+  height: 200px;
+  padding: 30px;
+  color: #000000;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+#titulotom {
+  text-align: center;
+  height: 50;
+  font-size: 25px;
+  padding: 30px;
+  color: #6067c2;
+  font-weight: bold;
+  border-bottom: solid;
+  border-width: 12px;
+  border-radius: 22px;
+}
+#textotom{
+  margin-top: 15px;
+  font-weight: 150px;
+  font-size: 20px;
+  width: 650px;
+  height: 200px;
+  padding: 30px;
+  color: #000000;
+  border-radius: 22px;
+
+  border-width: 12px;
+}
+
+#sectiongatosproc{
+  width: 100vw;
+  height: auto;
+  background-image: url(../imagens/fundoproc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#tituloproc{
+text-align: center;
+font-size: 30px;
+margin-bottom: 30px;
+}
+#polaroid{
+  width: 373.04px;
+  height: 461.04px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  transition: 0.4s;
+}
+
+
+#linhapolaroid{
+  justify-content: space-evenly;
+  width: 100vw;
+  display: flex;
+
+}
+
+#linhapolaroid :hover{
+border-color: #7E60C2;
+border-width: 10px;
+
+}
+#polaroidfoto{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 35.5px;
+  border-bottom: solid;
+  border-width: 5px;
+  transition: 0.5s;
+}
+#textopolaroid{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 22px;
+  overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+#ongs{
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#adote{
+  text-align: center;
+  overflow-y: hidden;
+  font-size: 20px;
+  list-style: none;
+  margin-top: 10px;
+  min-height: 25px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+#adote:hover{
+  color: violet;
+  
+}
+#sitesdoa{
+  overflow-y: hidden;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  min-height: 30px;
+}
+#imgadote{
+  border-bottom: solid;
+  border-color: rgb(55, 55, 95);
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 12.5px;
+}
+#imgadote2{
+  border-bottom: solid;
+  border-color: rgb(55, 55, 95);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#destaque{
+  color: #7E60C2;
+}
+#blocobaixo{
+  background-color: #A187E8;
+  
+  border-bottom: solid;
+  border-color: white;
+  border-width: 10px;
+}
+
+
+
+
+
+
+
+
+
+
